@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PreviewSeekBar">
+        <attr name="previewFrameLayout" format="reference" />
+        <attr name="previewAnimationEnabled" format="boolean" />
+        <attr name="previewEnabled" format="boolean" />
+        <attr name="previewThumbTint" format="color" />
+        <attr name="previewAutoHide" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="PreviewTimeBar">
+        <attr name="previewFrameLayoutTimeBar" format="reference" />
+        <attr name="previewAnimationEnabledTimeBar" format="boolean" />
+        <attr name="previewEnabledTimeBar" format="boolean" />
+        <attr name="previewAutoHideTimeBar" format="boolean" />
+    </declare-styleable>
+</resources>

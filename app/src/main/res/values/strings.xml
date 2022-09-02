@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Exoplayer Example</string>
+    <string name="msg_video_idle">"The Video is on Idle mode."</string>
+    <string name="msg_check_network">"Phone keeps losing network connection."</string>
+    <string name="msg_video_ready">"The Video is ready to pay."</string>
+    <string name="msg_video_end">"Thank you watch my video."</string>
+    <string name="msg_video_unknown">"Sorry! Something happening wrong"</string>
+
+    <string name="url_video">https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4</string>
 </resources>

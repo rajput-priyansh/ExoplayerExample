@@ -3,7 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/video_frame.xml" value="0.1815" />
+        <entry key="app/src/main/res/drawable/video_frame_alternative.xml" value="0.1385" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2784615384615385" />
+        <entry key="app/src/main/res/layout/exoplayer_controls.xml" value="0.2828125" />
+        <entry key="app/src/main/res/xml/network_security_config.xml" value="0.2828125" />
+        <entry key="previewseekbar/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1815" />
+        <entry key="previewseekbar/src/main/res/drawable/ic_launcher_background.xml" value="0.1815" />
+        <entry key="previewseekbar/src/main/res/drawable/previewseekbar_morph.xml" value="0.1815" />
       </map>
     </option>
   </component>
