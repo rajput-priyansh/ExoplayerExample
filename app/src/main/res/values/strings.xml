@@ -5,6 +5,7 @@
     <string name="msg_video_ready">"The Video is ready to pay."</string>
     <string name="msg_video_end">"Thank you watch my video."</string>
     <string name="msg_video_unknown">"Sorry! Something happening wrong"</string>
+    <string name="mse_your_phone_shaken">You have shaken your phone</string>
 
     <string name="url_video">https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4</string>
 </resources>

@@ -162,6 +162,10 @@ class ExoPlayerManager(
         playerView.controllerShowTimeoutMs = 15000
     }
 
+    fun pausePlayer() {
+        playerView.player?.pause()
+    }
+
     //init block
     init {
         previewTimeBar.addOnScrubListener(this)
