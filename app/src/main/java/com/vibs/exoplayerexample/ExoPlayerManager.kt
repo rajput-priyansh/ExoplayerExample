@@ -162,6 +162,23 @@ class ExoPlayerManager(
         playerView.controllerShowTimeoutMs = 15000
     }
 
+    /**
+     * Reset tha player
+     */
+    fun restartPlayer() {
+        isPlayWhenReady = true
+        currentItem = 0
+        playbackPosition = 0L
+
+        with(playerView.player) {
+            this?.playWhenReady = isPlayWhenReady
+            this?.seekTo(currentItem, playbackPosition)
+        }
+    }
+
+    /**
+     * pause the player
+     */
     fun pausePlayer() {
         playerView.player?.pause()
     }

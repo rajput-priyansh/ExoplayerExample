@@ -43,12 +43,27 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/vibs/exoplayerexample/brodcast/ForegroundOnlyBroadcastReceiver.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/vibs/exoplayerexample/service/ForegroundOnlyLocationService.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/vibs/exoplayerexample/utils/AppUtils.kt">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/vibs/exoplayerexample/utils/TimeLineView.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/vibs/exoplayerexample/utils/Utils.kt">
           <value>
             <set />
           </value>
@@ -204,6 +219,21 @@
           </value>
         </entry>
         <entry key="$USER_HOME$/StudioProjects/bnb-consumer-app/common/src/main/java/com/bricknbolt/common/utils/BBConstants.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/StudioProjects/while-in-use-location/complete/src/main/java/com/example/android/whileinuselocation/ForegroundOnlyLocationService.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/StudioProjects/while-in-use-location/complete/src/main/java/com/example/android/whileinuselocation/MainActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/StudioProjects/while-in-use-location/complete/src/main/java/com/example/android/whileinuselocation/Utils.kt">
           <value>
             <set />
           </value>
