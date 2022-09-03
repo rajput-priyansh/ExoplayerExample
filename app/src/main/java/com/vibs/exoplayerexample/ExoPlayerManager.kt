@@ -3,6 +3,8 @@ package com.vibs.exoplayerexample
 import android.content.Context
 
 import android.net.Uri
+import android.os.Handler
+import android.os.Looper
 import android.widget.ImageView
 import android.widget.Toast
 import com.bumptech.glide.Glide
@@ -24,7 +26,7 @@ class ExoPlayerManager(
 ) : PreviewLoader, PreviewBar.OnScrubListener {
     private var mediaUri: Uri? = null
 
-    private var isPlayWhenReady = true
+    private var isPlayWhenReady = false
     private var currentItem = 0
     private var playbackPosition = 0L
 
@@ -187,5 +189,11 @@ class ExoPlayerManager(
     init {
         previewTimeBar.addOnScrubListener(this)
         previewTimeBar.setPreviewLoader(this)
+
+        //play a video file 4 seconds after launch.
+        Handler(Looper.getMainLooper()).postDelayed({
+            isPlayWhenReady = true
+            restartPlayer()
+        }, 4000)
     }
 }
